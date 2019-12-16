@@ -1,0 +1,7 @@
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\bin\Debug\netcoreapp3.1\TestOveractive.Entities.deps.json
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\bin\Debug\netcoreapp3.1\TestOveractive.Entities.dll
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\bin\Debug\netcoreapp3.1\TestOveractive.Entities.pdb
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\obj\Debug\netcoreapp3.1\TestOveractive.Entities.AssemblyInfoInputs.cache
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\obj\Debug\netcoreapp3.1\TestOveractive.Entities.AssemblyInfo.cs
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\obj\Debug\netcoreapp3.1\TestOveractive.Entities.dll
+D:\Projects\Overactive\Test overactive new project\TestOveractive\TestOveractive.Entities\obj\Debug\netcoreapp3.1\TestOveractive.Entities.pdb

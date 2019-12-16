@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestOveractive.DAL.Contracts\TestOveractive.DAL.Contracts.csproj" />
+    <ProjectReference Include="..\TestOveractive.Entities\TestOveractive.Entities.csproj" />
+    <ProjectReference Include="..\TestOveractive.Services.Contracts\TestOveractive.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

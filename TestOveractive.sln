@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive", "TestOveractive\TestOveractive.csproj", "{B3A37D4F-76A3-4203-9A94-8E1185517487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive.DAL.Contracts", "TestOveractive.DAL.Contracts\TestOveractive.DAL.Contracts.csproj", "{612FCE64-F327-4672-92BF-8BE009B31A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive.DAL", "TestOveractive.DAL\TestOveractive.DAL.csproj", "{519361C7-480D-4CDC-9C85-0A6096F024FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive.Services.Contracts", "TestOveractive.Services.Contracts\TestOveractive.Services.Contracts.csproj", "{75F4498F-D943-4ED4-AF2A-68C205EB1D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive.Services", "TestOveractive.Services\TestOveractive.Services.csproj", "{EF27D708-55BF-4227-9B59-13EFD789EC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOveractive.Entities", "TestOveractive.Entities\TestOveractive.Entities.csproj", "{0E11268B-6C33-410E-BD6A-C5605A7F0A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A37D4F-76A3-4203-9A94-8E1185517487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A37D4F-76A3-4203-9A94-8E1185517487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A37D4F-76A3-4203-9A94-8E1185517487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A37D4F-76A3-4203-9A94-8E1185517487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612FCE64-F327-4672-92BF-8BE009B31A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612FCE64-F327-4672-92BF-8BE009B31A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612FCE64-F327-4672-92BF-8BE009B31A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612FCE64-F327-4672-92BF-8BE009B31A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519361C7-480D-4CDC-9C85-0A6096F024FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519361C7-480D-4CDC-9C85-0A6096F024FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519361C7-480D-4CDC-9C85-0A6096F024FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519361C7-480D-4CDC-9C85-0A6096F024FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F4498F-D943-4ED4-AF2A-68C205EB1D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F4498F-D943-4ED4-AF2A-68C205EB1D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F4498F-D943-4ED4-AF2A-68C205EB1D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F4498F-D943-4ED4-AF2A-68C205EB1D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF27D708-55BF-4227-9B59-13EFD789EC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF27D708-55BF-4227-9B59-13EFD789EC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF27D708-55BF-4227-9B59-13EFD789EC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF27D708-55BF-4227-9B59-13EFD789EC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E11268B-6C33-410E-BD6A-C5605A7F0A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E11268B-6C33-410E-BD6A-C5605A7F0A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E11268B-6C33-410E-BD6A-C5605A7F0A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E11268B-6C33-410E-BD6A-C5605A7F0A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {275A57D6-6572-408A-B16C-04A4140F46B2}
+	EndGlobalSection
+EndGlobal

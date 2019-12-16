@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Crear Permiso";
+}
+
+@model TestOveractive.Models.PermisoViewModel
+
+<h1>Crear Permiso</h1>
+
+
+
+<form asp-controller="Home" asp-action="CreatePermiso" method="post">
+    <div class="row">
+        <label asp-for="NombreEmpleado">Nombre</label>
+        <input class="form-control" asp-for="NombreEmpleado" />
+        <span asp-validation-for="NombreEmpleado"></span>
+
+    </div>
+    <div class="row">
+        <label asp-for="ApellidosEmpleado">Apellido</label>
+        <input class="form-control" asp-for="ApellidosEmpleado" />
+        <span asp-validation-for="ApellidosEmpleado"></span>
+    </div>
+    <div class="row">
+        <label asp-for="Fecha">Fecha</label>
+        <input asp-for="Fecha" asp-format="{0:MM/dd/yyyy}" class="form-control" />
+        <span asp-validation-for="Fecha"></span>
+    </div>
+
+    <div class="row">   
+        <label asp-for="TipoPermisoId">Tipo</label>
+        <select  class="form-control" data-val="true" data-val-required="El tipo es requerido." id="TipoPermisoId" name="TipoPermisoId">
+            <option value="">Seleccione un tipo de permiso</option>
+            @foreach (var tipo in ViewBag.tipoPermisos as IEnumerable<TestOveractive.Entities.TipoPermiso>)
+            {
+                <option value="@tipo.Id">@tipo.Descripcion</option>
+            }
+          
+        </select>       
+        <span asp-validation-for="TipoPermisoId"></span>
+    </div>
+    <div class="row">
+        <button class="btn btn-info" type="submit">Crear</button>
+    </div>
+    
+    
+</form>
